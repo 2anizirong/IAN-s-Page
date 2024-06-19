@@ -59,6 +59,10 @@
         a:active{
             color: yellow;
         }
+        .smalltext {
+            font-size: 20px;
+            color: #ff443d;
+        }
             
         
         footer {
