@@ -1,0 +1,56 @@
+body {
+    font-family: "Jua", sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-image: url("photo/backgroundimg3.png");
+    color: gray;
+}
+header {
+    height: 80px;
+    background-color: rgba(173, 216, 230, 0.2);
+    color: rgb(35, 32, 142);
+    border: 3px solid rgb(136, 135, 135);
+    border-radius: 10px;
+    text-align: center;     /* 글자 가운데 정렬 */
+    position: relative;
+    top: 10px;              /* 상단에서 20px 띄움 */
+}
+img {
+    margin: 20px auto; /* 좌우 여백을 자동으로 설정하여 가운데 정렬 */
+    display: block;
+    border-radius: 10px;
+    border-style: dashed;
+}
+div {
+    display: flex;
+    justify-content: space-around;
+}
+aside{
+    flex: 2;
+    margin: 20px;
+}
+aside > h2{
+    text-align: center;
+}
+h3{
+    margin: 20px;
+}
+section{
+    flex: 8;
+    border-style: dashed;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgba(1, 5, 94, 0.5);
+}
+h1{
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+section > h3{
+    color: brown;
+}
+ul { 
+    font-size: 30px;
+    list-style: url("photo/blueheart.png");
+}
