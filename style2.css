@@ -1,0 +1,27 @@
+body {
+    font-family: "Jua", sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-image: url("photo/backgroundimg2.png");
+}
+header {
+    height: 80px;
+    color: rgb(255, 209, 234);
+    background-color: rgba(173, 216, 230, 0.2);
+    border: 3px solid rgb(136, 135, 135);
+    border-radius: 10px;
+    text-align: center;     /* 글자 가운데 정렬 */
+    position: relative;
+    top: 10px;              /* 상단에서 20px 띄움 */
+}
+main{
+    text-align: center;     /* 글자 가운데 정렬 */
+    color: plum;
+}
+video{
+    margin: 0 auto; /* 가운데 정렬 */
+    display: block;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color:rgb(255, 209, 234);
+}

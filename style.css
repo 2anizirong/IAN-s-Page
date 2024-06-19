@@ -6,7 +6,7 @@
         }
         header {
             height: 80px;
-            background-color: lightblue;
+            background-color: rgba(173, 216, 230, 0.2);
             color: rgb(35, 32, 142);
             border: 3px solid rgb(136, 135, 135);
             border-radius: 10px;
@@ -45,9 +45,19 @@
             border-radius: 10px;
             border-style: dashed;
         }
-        ul{ 
+        ul { 
             font-size: 30px;
             list-style: url("photo/blueheart.png");
+        }
+        .colorset{
+            color: yellow;
+        }
+        a{
+            text-decoration: none;
+            color: aqua;
+        }
+        a:active{
+            color: yellow;
         }
             
         
