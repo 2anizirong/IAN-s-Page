@@ -1,0 +1,17 @@
+body {
+    font-family: "Jua", sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-image: url("photo/backgroundimg5.png");
+    color: rgb(88, 108, 9);
+}
+header {
+    height: 80px;
+    background-color: rgba(173, 216, 230, 0.2);
+    color: rgb(190, 122, 198);
+    border: 3px solid rgb(136, 135, 135);
+    border-radius: 10px;
+    text-align: center;     /* 글자 가운데 정렬 */
+    position: relative;
+    top: 10px;              /* 상단에서 20px 띄움 */
+}

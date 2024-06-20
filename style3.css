@@ -40,7 +40,6 @@ section{
     border-style: dashed;
     border-radius: 10px;
     margin: 20px;
-    background-color: rgba(1, 5, 94, 0.5);
 }
 h1{
     margin: 20px;
@@ -49,8 +48,10 @@ h1{
 }
 section > h3{
     color: brown;
+    margin: 30px;
 }
 ul { 
     font-size: 30px;
     list-style: url("photo/blueheart.png");
+    margin: 20px;
 }
